@@ -1,0 +1,24 @@
+<meta>
+	<info author="neku^" />
+
+
+	<!-- czcionki do usuniecia pozniej -->
+	<script src="font/client.lua" type="client" />
+
+	<file src="font/geosans.ttf" />
+	<file src="font/bold.ttf" />
+	<file src="font/regular.ttf" />
+
+	<script src="shared.lua" type="shared" />
+	<script src="animate.lua" type="client" cache="false" />
+	<script src="client.lua" type="client" cache="false" />
+	<script src="server.lua" />
+
+	<file src="img/background.png" />
+	<file src="img/bronze.png" />
+	<file src="img/silver.png" />
+	<file src="img/hidden.png" />
+	<file src="img/gold.png" />
+
+	<export function="getAchievementList" type="shared" />
+</meta>
